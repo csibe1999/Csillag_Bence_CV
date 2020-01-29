@@ -1,3 +1,11 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%
+}
 @media screen and (min-width: 415px) {
   .header {
     background-image: url("img.jpg");
@@ -9,20 +17,11 @@
     background-image: url("mini.jpg");
   }
 }
-
-.header {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-size: 100% 100%
-}
-
 .timeline {
   background-color: lightblue;
   width: 100%;
-
+  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .row {
@@ -40,6 +39,7 @@
     height: 100vh;
     font-size: 10vh;
   }
+  
 }
 
 @media screen and (max-width: 414px) {
@@ -47,8 +47,4 @@
     height: 45vh;
     font-size: 4.5vh;
   }
-}
-
-.nev {
-  /*  */
 }

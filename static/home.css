@@ -1,8 +1,18 @@
+@media screen and (min-width: 415px) {
+  .header {
+    background-image: url("img.jpg");
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    background-image: url("mini.jpg");
+  }
+}
+
 .header {
-  background-color: darkred;
   height: 100vh;
   width: 100%;
-  background-image: url("img.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -10,17 +20,35 @@
 }
 
 .timeline {
- 
   background-color: lightblue;
-    
   width: 100%;
-  
+
 }
-.row{
+
+.row {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
-.footer{
+
+.footer {
   height: 100vh;
   width: 100%;
+}
+
+@media screen and (min-width: 415px) {
+  .nev {
+    height: 100vh;
+    font-size: 10vh;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .nev {
+    height: 45vh;
+    font-size: 4.5vh;
+  }
+}
+
+.nev {
+  /*  */
 }

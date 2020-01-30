@@ -24,10 +24,8 @@ body {
     background-image: url("mini.jpg");
   }
 }
-
 .timeline {
   color: #175522;
-
   font-size: 1.5em;
   width: 100%;
   overflow: hidden;
@@ -42,6 +40,8 @@ body {
 .footer {
   height: 100vh;
   width: 100%;
+  color: #175522;
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 415px) {
@@ -72,11 +72,11 @@ body {
   color: rgba(0, 156, 0, 0.719);
 }
 a {
-  color: #0b2710;
+  color: #46c95e;
 }
 a:visited {
-  color: #0b2710;
+  color: #46c95e;
 }
 a:hover, a:active, a:focus {
-  color:#175522;
+  color:#46c95e;
 }

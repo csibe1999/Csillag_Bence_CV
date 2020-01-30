@@ -1,3 +1,9 @@
+body {
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .header {
   height: 100vh;
   width: 100%;
@@ -6,6 +12,7 @@
   background-size: cover;
   background-size: 100% 100%
 }
+
 @media screen and (min-width: 415px) {
   .header {
     background-image: url("img.jpg");
@@ -17,8 +24,11 @@
     background-image: url("mini.jpg");
   }
 }
+
 .timeline {
-  background-color: lightblue;
+  color: #175522;
+
+  font-size: 1.5em;
   width: 100%;
   overflow: hidden;
   overflow-x: hidden;
@@ -39,7 +49,7 @@
     height: 100vh;
     font-size: 10vh;
   }
-  
+
 }
 
 @media screen and (max-width: 414px) {
@@ -47,4 +57,26 @@
     height: 45vh;
     font-size: 4.5vh;
   }
+}
+
+.timeline .row {
+  font-size: 1.3em;
+  background: #fffbcc;
+  background: -moz-linear-gradient(top, #fffbcc 0%, #fefefe 77%);
+  background: -webkit-linear-gradient(top, #fffbcc 0%, #fefefe 77%);
+  background: linear-gradient(to bottom, #fffbcc 0%, #fefefe 77%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbcc', endColorstr='#fefefe', GradientType=0);
+}
+
+.fa-long-arrow-alt-down {
+  color: rgba(0, 156, 0, 0.719);
+}
+a {
+  color: #0b2710;
+}
+a:visited {
+  color: #0b2710;
+}
+a:hover, a:active, a:focus {
+  color:#175522;
 }

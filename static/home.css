@@ -2,6 +2,8 @@ body {
   font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
+    
+
 }
 
 .header {
@@ -25,13 +27,13 @@ body {
   }
 }
 .timeline {
-  color: #175522;
+  color: #D6D6D6;
   font-size: 1.5em;
   width: 100%;
   overflow: hidden;
-  overflow-x: hidden;
+    overflow-x: hidden;
+  
 }
-
 .row {
   margin-left: 0px !important;
   margin-right: 0px !important;
@@ -42,12 +44,17 @@ body {
   width: 100%;
   color: #175522;
   font-size: 1.5em;
+  overflow: hidden;
+    overflow-x: hidden;
 }
 
 @media screen and (min-width: 415px) {
   .nev {
     height: 100vh;
     font-size: 10vh;
+  }
+  .timeline .row {
+    font-size: 1.3em;
   }
 
 }
@@ -57,15 +64,19 @@ body {
     height: 45vh;
     font-size: 4.5vh;
   }
+  .timeline .row {
+    font-size: 0.7em;
+  }
 }
 
 .timeline .row {
-  font-size: 1.3em;
-  background: #fffbcc;
-  background: -moz-linear-gradient(top, #fffbcc 0%, #fefefe 77%);
-  background: -webkit-linear-gradient(top, #fffbcc 0%, #fefefe 77%);
-  background: linear-gradient(to bottom, #fffbcc 0%, #fefefe 77%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbcc', endColorstr='#fefefe', GradientType=0);
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#07182a+0,144375+60,144375+100 */
+background: #07182a; /* Old browsers */
+background: -moz-linear-gradient(top,  #07182a 0%, #144375 60%, #144375 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #07182a 0%,#144375 60%,#144375 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #07182a 0%,#144375 60%,#144375 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07182a', endColorstr='#144375',GradientType=0 ); /* IE6-9 */
+
 }
 
 .fa-long-arrow-alt-down {

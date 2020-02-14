@@ -7,7 +7,7 @@ module.exports = function (app) {
     };
 
     app.get('/',
-    renderMW(objRepo,'gaz'));
+    renderMW(objRepo,'cv'));
 
     
     

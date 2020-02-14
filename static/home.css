@@ -1,93 +1,111 @@
 body {
-  font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-    
-
-}
-
-.header {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-size: 100% 100%
-}
-
-@media screen and (min-width: 415px) {
-  .header {
-    background-image: url("img.jpg");
-  }
-}
-
-@media screen and (max-width: 414px) {
-  .header {
-    background-image: url("mini.jpg");
-  }
-}
-.timeline {
-  color: #D6D6D6;
-  font-size: 1.5em;
-  width: 100%;
-  overflow: hidden;
-    overflow-x: hidden;
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+      
   
-}
-.row {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-}
-
-.footer {
-  height: 100vh;
-  width: 100%;
-  color: #175522;
-  font-size: 1.5em;
-  overflow: hidden;
-    overflow-x: hidden;
-}
-
-@media screen and (min-width: 415px) {
-  .nev {
+  }
+  img { 
+    width: 50vh; 
+    height: 50vh; 
+    object-fit: contain; 
+  } 
+  .header {
     height: 100vh;
-    font-size: 10vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%
   }
+  
+  @media screen and (min-width: 415px) {
+    .header {
+      background-image: url("img.jpg");
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .header {
+      background-image: url("mini.jpg");
+    }
+  }
+  .timeline {
+    color: #D6D6D6;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    
+  }
+  .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  .footer {
+    width: 100%;
+    color: #D6D6D6;
+    background-color: #144375;
+    overflow: hidden;
+    overflow-x: hidden;
+  }
+  
+  @media screen and (min-width: 415px) {
+    .nev {
+      height: 100vh;
+      font-size: 10vh;
+    }
+    .timeline .row {
+      font-size: 1.5em;
+    }
+    .float{
+      text-align: right;
+      
+    }
+    .footer{
+      font-size: 1.5em;
+      height: 100vh;
+    }
+  
+  }
+  
+  @media screen and (max-width: 414px) {
+    .nev {
+      height: 35vh;
+      font-size: 4.5vh;
+    }
+    .timeline .row {
+      font-size: 1.1em;
+    }
+    .float{
+      text-align: left;
+    }
+    .footer{
+      font-size: 1.1em;
+      height: 110vh;
+    }
+  }
+  
   .timeline .row {
-    font-size: 1.3em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#07182a+0,144375+60,144375+100 */
+  background: #07182a; /* Old browsers */
+  background: -moz-linear-gradient(top,  #07182a 0%, #144375 60%, #144375 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #07182a 0%,#144375 60%,#144375 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #07182a 0%,#144375 60%,#144375 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07182a', endColorstr='#144375',GradientType=0 ); /* IE6-9 */
+  
   }
-
-}
-
-@media screen and (max-width: 414px) {
-  .nev {
-    height: 45vh;
-    font-size: 4.5vh;
+  .fa-long-arrow-alt-down {
+    /* color: rgba(0, 156, 0, 0.719); */
+    color: #08c9eb8c;
+    /* color: rgb(2, 22, 48); */
   }
-  .timeline .row {
-    font-size: 0.7em;
+  a {
+    color: #46c95e;
   }
-}
-
-.timeline .row {
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#07182a+0,144375+60,144375+100 */
-background: #07182a; /* Old browsers */
-background: -moz-linear-gradient(top,  #07182a 0%, #144375 60%, #144375 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #07182a 0%,#144375 60%,#144375 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #07182a 0%,#144375 60%,#144375 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07182a', endColorstr='#144375',GradientType=0 ); /* IE6-9 */
-
-}
-
-.fa-long-arrow-alt-down {
-  color: rgba(0, 156, 0, 0.719);
-}
-a {
-  color: #46c95e;
-}
-a:visited {
-  color: #46c95e;
-}
-a:hover, a:active, a:focus {
-  color:#46c95e;
-}
+  a:visited {
+    color: #46c95e;
+  }
+  a:hover, a:active, a:focus {
+    color:#46c95e;
+  }
